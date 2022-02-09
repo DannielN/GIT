@@ -21,7 +21,7 @@ namespace Pr01
         {
             int cislo = Convert.ToInt32(textBox1.Text);
             int fakt = 1;
-            for (int k = 1; k <= cislo; k++)
+            for (int k = 2; k <= cislo; k++)
             {
                 fakt *= k;
             }
