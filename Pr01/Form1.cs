@@ -16,5 +16,16 @@ namespace Pr01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int cislo = Convert.ToInt32(textBox1.Text);
+            int fakt = 1;
+            for (int k = 1; k <= cislo; k++)
+            {
+                fakt *= k;
+            }
+            label1.Text = ("Faktorial = " + fakt);
+        }
     }
 }
